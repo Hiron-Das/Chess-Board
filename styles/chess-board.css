@@ -7,10 +7,12 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(1, 85px);
+
 }
 
 .container div:nth-child(odd) {
     background-color: black;
+    color: black;
 }
 
 .container-two {
@@ -21,6 +23,7 @@
 
 .container-two div:nth-child(even) {
     background-color: black;
+    color: black;
 }
 
 
